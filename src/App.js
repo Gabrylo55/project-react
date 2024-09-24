@@ -1,6 +1,10 @@
 import './App.css';
 import InfoBox from './components/infobox/infobox';
+import PeopleList from './components/infobox/PeopleList/PeopleList';
 import List from './List/List';
+import Button from './components/infobox/Button/Button';
+import Iterator from './components/infobox/Iterator/Iterator';
+
 
 function App() {
   return (
@@ -9,6 +13,8 @@ function App() {
     <InfoBox/>
     <List/>
     <Button/>
+    <PeopleList/>
+    <Iterator/>
     </div>
   );
 }
