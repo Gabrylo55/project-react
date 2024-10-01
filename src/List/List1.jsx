@@ -1,9 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 
 const List = () =>{
-    
-    const list = [1,2,3,4,5,6]
-    
+    const [list, setList] = useState([1,2,3,4,5,6])
     const changeList = (list) => {
         const tmp = list.map((x)=> x + 2)
 
